@@ -15,17 +15,13 @@ Proje Amacı: Ağ yöneticilerinin cihazların yanına gitmeden, ağ üzerindeki
 1\. Switch Uzaktan Erişim
 
 Switchler doğrudan IP almadığı için yönetimsel bir arayüze ihtiyaç duyar
-
-\- \*\*VLAN 1 Arayüzü:\*\* `interface vlan 1` komutu ile bir IP adresi ve subnet mask atandı.
-
-\- \*\*VTY Hatları:\*\* `line vty 0 4` komutu ile 5 eşzamanlı bağlantı için izin verildi.
-
-\- \*\*Şifreleme:\*\* `password` ve `login` komutları ile erişim güvenliği sağlandı.
+VLAN 1 Arayüzü: interface vlan 1 komutu ile bir IP adresi ve subnet mask atandı.
+VTY Hatları: line vty 0 4 komutu ile 5 eşzamanlı bağlantı için izin verildi.
+Şifreleme: password ve login komutları ile erişim güvenliği sağlandı.
 
 
 
 Switch için komutlar: 
-
 Switch>en
 
 Switch#conf ter
