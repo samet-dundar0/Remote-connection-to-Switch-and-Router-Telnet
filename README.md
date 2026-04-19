@@ -25,7 +25,6 @@ VTY Hatları: line vty 0 4 komutu ile 5 eşzamanlı bağlantı için izin verild
 
 
 Switch için komutlar: 
---------------------------
 
 Switch>en
 
