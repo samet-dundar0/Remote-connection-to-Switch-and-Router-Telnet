@@ -25,6 +25,7 @@ VTY Hatları: line vty 0 4 komutu ile 5 eşzamanlı bağlantı için izin verild
 
 
 Switch için komutlar: 
+--------------------------
 
 Switch>en
 
@@ -63,14 +64,13 @@ Router'da doğrudan fiziksel arayüzler üzerinden erişim sağlanır:
 
 
 Router için komutlar:
+------------------------
 
 
 
 Router>en
 
 Router#conf ter
-
-
 
 Router(config)#interface gig0/0
 
